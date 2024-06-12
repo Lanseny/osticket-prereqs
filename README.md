@@ -28,7 +28,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: Download osTicket
+<h2>Step 1: Download osTicket</h2>
+    </p>
 1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
 </p>
 <br />
@@ -37,7 +38,7 @@ Step 1: Download osTicket
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Extract Files
+<h2>Step 2: Extract Files</h2>
     </p>
 1. Extract the downloaded osTicket ZIP file into your web server's document root directory.
   </p>
@@ -49,7 +50,7 @@ Step 2: Extract Files
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 3: Set Permissions
+<h2>Step 3: Set Permissions</h2>
     </p>
 1. Ensure proper file permissions. osTicket requires write permissions to specific directories for configuration purposes. Typically, the "uploads" and "include" directories need write permissions.
 </p>
@@ -59,7 +60,7 @@ Step 3: Set Permissions
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 4: Create Database
+<h2>Step 4: Create Database</h2>
     </p>
 1. Log in to your database management system (e.g., MySQL) and create a new database for osTicket.
   </p>
@@ -71,7 +72,7 @@ Step 4: Create Database
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 5: Configuration
+<h2>Step 5: Configuration</h2>
     </p>
 1. Navigate to the "include" directory within your osTicket installation.
   </p>
@@ -85,7 +86,7 @@ Step 5: Configuration
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 6: Install Dependencies
+<h2>Step 6: Install Dependencies</h2>
     </p>
 1. Open a terminal or command prompt and navigate to your osTicket directory.
   </p>
@@ -97,7 +98,7 @@ Step 6: Install Dependencies
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 7: Web Installation
+<h2>Step 7: Web Installation</h2>
     </p>
 1. Open your web browser and navigate to your osTicket installation URL.
   </p>
@@ -112,7 +113,7 @@ Step 7: Web Installation
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 8: Finalization
+<h2>Step 8: Finalization</h2>
     </p>
 1. After the installation is complete, delete the `setup` directory from your osTicket installation for security purposes.
   </p>
@@ -122,7 +123,7 @@ Step 8: Finalization
 </p>
 <br />
 
-Conclusion:
+<h2>Conclusion:<h2>
 </p>
 That's it! You've successfully installed osTicket. You can now start using it to manage your support 
 tickets.
