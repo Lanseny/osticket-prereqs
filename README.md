@@ -119,7 +119,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 <p>
-<img src="https://miguelmenendez.pro/en/repository/osticket-bootstrap/osticket.png"/>
+<img src="https://miguelmenendez.pro/en/repository/osticket-bootstrap/osticket.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h2>Step 5: Downloading osTicket</h2>
