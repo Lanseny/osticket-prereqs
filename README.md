@@ -69,9 +69,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <h2>Step 3: Downloading and Installing Files</h2>
     </p>
-1. Download and install PHP Manager for IIS 
+1. Download and install <a href="https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link">PHP Manager for IIS</a>
 </p>
-2. Download and install the Rewrite Module 
+2. Download and install <a href="https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link">Rewrite Module</a>
 </p>
 3. Create the directory C:\PHP
     </p>
@@ -83,13 +83,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   </p>
     - Create a New File and rename it PHP
   </p>
-4. Download and install PHP 7.3.8(php-7.3.8-nts-Win32-VC15-x86.zip) 
+4. Download and install <a href="https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link">PHP 7.3.8</a>(php-7.3.8-nts-Win32-VC15-x86.zip) 
      </p>
     - right-click "extract all" and browser to unzip contents into the created file PHP Folder
   </p>
-5. Download and install VC_redist.x86.exe.
+5. Download and install <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link">VC_redist.x86.exe.</a>
 </p>
-6. Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+6. Download and install <a href="https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link">MySQL 5.5.62 </a>(mysql-5.5.62-win32.msi)
     - Typical Setup ->
     </p>
     - launch configuration wizard (after install) ->
@@ -97,8 +97,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - standard configuration ->
     </p>
     - create a new root password
-
-
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h2>Step 3: Configuriations in IIS</h2>
+    </p>
+1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
 </p>
 <br />
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -112,94 +119,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h2>Step 4: Extract Files</h2>
-    </p>
-1. Extract the downloaded osTicket ZIP file into your web server's document root directory.
-  </p>
-2. Rename the extracted directory to something meaningful (e.g., "osticket").
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h2>Step 5: Set Permissions</h2>
-    </p>
-1. Ensure proper file permissions. osTicket requires write permissions to specific directories for configuration purposes. Typically, the "uploads" and "include" directories need write permissions.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h2>Step 6: Create Database</h2>
-    </p>
-1. Log in to your database management system (e.g., MySQL) and create a new database for osTicket.
-  </p>
-2. Create a new database user and grant it all privileges on the newly created database.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h2>Step 7: Configuration</h2>
-    </p>
-1. Navigate to the "include" directory within your osTicket installation.
-  </p>
-2. Locate the `ost-sampleconfig.php` file and rename it to `ost-config.php`.
-</p>
-3. Open `ost-config.php` in a text editor and fill in the database connection details and other settings as per your setup.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h2>Step 8: Install Dependencies</h2>
-    </p>
-1. Open a terminal or command prompt and navigate to your osTicket directory.
-  </p>
-2. Run `composer install` to install dependencies.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h2>Step 9: Web Installation</h2>
-    </p>
-1. Open your web browser and navigate to your osTicket installation URL.
-  </p>
-2. Follow the on-screen instructions to complete the installation process.
-  </p>
-3. Provide the requested information, including database details, administrator account credentials, and email settings.
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h2>Step 10: Finalization</h2>
-    </p>
-1. After the installation is complete, delete the `setup` directory from your osTicket installation for security purposes.
-  </p>
-2. Log in to the osTicket admin panel using the credentials you provided during installation.
-  </p>
-3. Configure email settings, ticket queues, and other preferences according to your requirements.
-</p>
-<br />
 
 <h2>Conclusion:<h2>
 </p>
