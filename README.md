@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxGtvf6cQyiq7Qxr3FwN_5l_uYaBbpflk3ew&s" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 1: Create a Virtual Machine Through Microsoft Azure</h2>
+<h2>Step 1: Creating a Virtual Machine Through Microsoft Azure</h2>
     </p>
 1. Visit "Portal.Azure.com" and sign in or create an account 
 </p>
