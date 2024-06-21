@@ -100,10 +100,29 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 <p>
+<img src="https://azure.microsoft.com/svghandler/app-configuration/?width=600&height=315" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h2>Step 4: Configuriations in IIS</h2>
+    </p>
+1. Search "IIS" and Right click and Run as Administator 
+    </p>
+2. Doulble click PHP Manager
+    </p>
+  - then click on register new PHP verison
+    </p>
+  - click "..." go to "Windows(C):"
+    </p>
+  - click PHP folder and then "open php-cgi"
+     </p>
+  - go back to "VM-osticket HOME" portal and click "restart"
+</p>
+<br />
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 3: Configuriations in IIS</h2>
+<h2>Step 5: Downloading osTicket</h2>
     </p>
 1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
 </p>
