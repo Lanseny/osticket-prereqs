@@ -64,6 +64,45 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
+<img src="https://st3.depositphotos.com/3001967/18684/i/450/depositphotos_186840910-stock-photo-download-progress-almost-done-dialog.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h2>Step 3: Downloading and Installing Files</h2>
+    </p>
+1. Download and install PHP Manager for IIS 
+</p>
+2. Download and install the Rewrite Module 
+</p>
+3. Create the directory C:\PHP
+    </p>
+    - open Files explore
+  </p>
+    - double-click "This PC"
+  </p>
+    - then double-click "Windows(C):"
+  </p>
+    - Create a New File and rename it PHP
+  </p>
+4. Download and install PHP 7.3.8(php-7.3.8-nts-Win32-VC15-x86.zip) 
+     </p>
+    - right-click "extract all" and browser to unzip contents into the created file PHP Folder
+  </p>
+5. Download and install VC_redist.x86.exe.
+</p>
+6. Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+    - Typical Setup ->
+    </p>
+    - launch configuration wizard (after install) ->
+    </p>
+    - standard configuration ->
+    </p>
+    - create a new root password
+
+
+</p>
+<br />
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
