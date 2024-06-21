@@ -119,12 +119,33 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://miguelmenendez.pro/en/repository/osticket-bootstrap/osticket.png"/>
 </p>
 <p>
 <h2>Step 5: Downloading osTicket</h2>
-    </p>
+     </p>
 1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
+ </p>
+2. Once you get your zip folder open File Explorer go to downloads and open up the zip folder
+ </p>
+3. Open a secound File Explorer and the open up "This Pc" --> "Windows(c:)" --> "intetpub" --> "wwwroot"
+ </p>
+4. Then drag the "Upload file" from your zip folder into "wwwroot"
+ </p>
+5. Go into "wwwroot" and rename the "Upload file" to "osTicket"
+ </p>
+6. Go back into IIS as an Administator click "restart" 
+</p>
+7. Go to sites in IIS -> Default -> osTicket -> Double ckick PHP manager
+ - Click “Enable or disable an extension”
+        </p>
+          Enable: php_imap.dll
+          </p>
+          Enable: php_intl.dll
+          </p>
+          Enable: php_opcache.dll
+</p>
+8. Go back sites in IIS -> Default -> osTicket on the right, click “Browse *:80”
 </p>
 <br />
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -135,10 +156,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Step 3: Download osTicket</h2>
     </p>
 1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
+ </p>
 </p>
 <br />
-
-
 
 <h2>Conclusion:<h2>
 </p>
