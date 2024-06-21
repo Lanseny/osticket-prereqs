@@ -40,10 +40,34 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
+<img src="https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2014/07/new-IIS-hero.png?q=50&fit=contain&w=1140&h=&dpr=1.5" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h2>Step 2: Installing / Enabling IIS in Windows With CGI and Common HTTP Features</h2>
+    </p>
+1. Search for Windows Features
+</p>
+2. Find Internet "Information Services" and check off on it
+</p>
+3. Expand Internet "Information Services" and check off "World Wide Web Services"
+</p>
+4. Expand "World Wide Web Services" and check "Application Development Features"
+</p>
+5. Expand "Application Development Features" and check "CGI"
+</p>
+6. Then check off "Common HTTP Features" and Expand it and make sure everything is checked off
+</p>
+7. Press "OK" then Verify by opening up to a Web Browser and typing up "127.0.0.1"
+</p>
+    (THE IMAGE SHOWEN FOR STEP 2 SHOULD BE THE VERIFICATON FOR INSTALLING IIS)
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 2: Download osTicket</h2>
+<h2>Step 3: Download osTicket</h2>
     </p>
 1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
 </p>
@@ -53,7 +77,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 3: Extract Files</h2>
+<h2>Step 4: Extract Files</h2>
     </p>
 1. Extract the downloaded osTicket ZIP file into your web server's document root directory.
   </p>
@@ -65,7 +89,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 4: Set Permissions</h2>
+<h2>Step 5: Set Permissions</h2>
     </p>
 1. Ensure proper file permissions. osTicket requires write permissions to specific directories for configuration purposes. Typically, the "uploads" and "include" directories need write permissions.
 </p>
@@ -75,7 +99,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 5: Create Database</h2>
+<h2>Step 6: Create Database</h2>
     </p>
 1. Log in to your database management system (e.g., MySQL) and create a new database for osTicket.
   </p>
@@ -87,7 +111,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 6: Configuration</h2>
+<h2>Step 7: Configuration</h2>
     </p>
 1. Navigate to the "include" directory within your osTicket installation.
   </p>
@@ -101,7 +125,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 7: Install Dependencies</h2>
+<h2>Step 8: Install Dependencies</h2>
     </p>
 1. Open a terminal or command prompt and navigate to your osTicket directory.
   </p>
@@ -113,7 +137,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 8: Web Installation</h2>
+<h2>Step 9: Web Installation</h2>
     </p>
 1. Open your web browser and navigate to your osTicket installation URL.
   </p>
@@ -128,7 +152,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 9: Finalization</h2>
+<h2>Step 10: Finalization</h2>
     </p>
 1. After the installation is complete, delete the `setup` directory from your osTicket installation for security purposes.
   </p>
