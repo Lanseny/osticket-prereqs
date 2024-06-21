@@ -23,12 +23,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 4. Composer: A dependency manager for PHP. Install it on your system.
 5. Web Browser: Any modern web browser for accessing the osTicket web interface.
 <h2>Installation Steps</h2>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h2>Step 1: Create a Virtual Machine Through Microsoft Azure</h2>
+    </p>
+1. Visit "Portal.Azure.com" and sign in or create an account 
+</p>
+2. Create a Resource Group
+</p>
+3. Then create a Virtual machine(VR) within the Resource Group that was already created 
+</p>
+4. Find your VR public IP address and put it into to Remote Desktop on your PC/Mac to open the VR
+</p>
+<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 1: Download osTicket</h2>
+<h2>Step 2: Download osTicket</h2>
     </p>
 1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
 </p>
@@ -38,7 +53,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 2: Extract Files</h2>
+<h2>Step 3: Extract Files</h2>
     </p>
 1. Extract the downloaded osTicket ZIP file into your web server's document root directory.
   </p>
@@ -50,7 +65,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 3: Set Permissions</h2>
+<h2>Step 4: Set Permissions</h2>
     </p>
 1. Ensure proper file permissions. osTicket requires write permissions to specific directories for configuration purposes. Typically, the "uploads" and "include" directories need write permissions.
 </p>
@@ -60,7 +75,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 4: Create Database</h2>
+<h2>Step 5: Create Database</h2>
     </p>
 1. Log in to your database management system (e.g., MySQL) and create a new database for osTicket.
   </p>
@@ -72,7 +87,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 5: Configuration</h2>
+<h2>Step 6: Configuration</h2>
     </p>
 1. Navigate to the "include" directory within your osTicket installation.
   </p>
@@ -86,7 +101,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 6: Install Dependencies</h2>
+<h2>Step 7: Install Dependencies</h2>
     </p>
 1. Open a terminal or command prompt and navigate to your osTicket directory.
   </p>
@@ -98,7 +113,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 7: Web Installation</h2>
+<h2>Step 8: Web Installation</h2>
     </p>
 1. Open your web browser and navigate to your osTicket installation URL.
   </p>
@@ -113,7 +128,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 8: Finalization</h2>
+<h2>Step 9: Finalization</h2>
     </p>
 1. After the installation is complete, delete the `setup` directory from your osTicket installation for security purposes.
   </p>
