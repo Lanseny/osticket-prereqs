@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 5. Web Browser: Any modern web browser for accessing the osTicket web interface.
 <h2>Installation Steps</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxGtvf6cQyiq7Qxr3FwN_5l_uYaBbpflk3ew&s" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <h2>Step 1: Create a Virtual Machine Through Microsoft Azure</h2>
