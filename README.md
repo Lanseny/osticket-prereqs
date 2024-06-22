@@ -202,21 +202,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    - Properties--> "Security"
    </p>
    - Click "Advance"--> "Edit" then go to Basic permissions and uncheck everything but "Read & execute" and "Read" then press ok and apply
-
- </p>
-</p>
-<br />
- </p>
-</p>
-<br />
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h2>Step 8: gfdsgdfsgfdsgf</h2>
-    </p>
-1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
  </p>
 </p>
 <br />
