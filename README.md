@@ -148,6 +148,29 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 8. Go back sites in IIS -> Default -> osTicket on the right, click “Browse *:80”
 </p>
 <br />
+
+<p>
+<img src="https://heera.it/wp-content/uploads/2013/07/iconfig-e1373233686608.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h2>Step 6: ost-config.php</h2>
+    </p>
+1. Open File Explorer click "This Pc" --> "Windows(c:)" --> "intetpub" --> "wwwroot"
+ </p>
+2. Go to Newely Named file "osTicket"--> "include" 
+ </p>
+3. Scroll down and rename "ost-sample config.php" to "ost-config.php"
+ </p>
+4. Right Click, Open up "Properties" then click "Security"--> "Advance"--> "Disable Inheritance"-->"Remove all permissions from the object"
+ </p>
+5. Add a new Permisson and then click "select a principal"
+ </p>
+6. Go to the "Enter th object Name to Select" and type in Everyone and click "check name" to make a new principal
+ </p>
+7. Go to "Basic Permission" and check of on all boxes
+ </p>
+</p>
+<br />
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
