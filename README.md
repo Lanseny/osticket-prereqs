@@ -157,17 +157,55 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     </p>
 1. Open File Explorer click "This Pc" --> "Windows(c:)" --> "intetpub" --> "wwwroot"
  </p>
-2. Go to Newely Named file "osTicket"--> "include" 
+2. Go to Newly Named file "osTicket"--> "include" 
  </p>
 3. Scroll down and rename "ost-sample config.php" to "ost-config.php"
  </p>
 4. Right Click, Open up "Properties" then click "Security"--> "Advance"--> "Disable Inheritance"-->"Remove all permissions from the object"
  </p>
-5. Add a new Permisson and then click "select a principal"
+5. Add a new Permission and then click "select a principal"
  </p>
-6. Go to the "Enter th object Name to Select" and type in Everyone and click "check name" to make a new principal
+6. Go to the "Enter the object name to Select" and type in Everyone and click "check name" to make a new principal
  </p>
-7. Go to "Basic Permission" and check of on all boxes
+7. Go to "Basic Permission" and check off all boxes
+ </p>
+</p>
+<br />
+<p>
+<img src="https://i.ytimg.com/vi/dEvGaxOgqf0/maxresdefault.jpg" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<h2>Step 7: Continue Setting up osTicket in the browser</h2>
+    </p>
+1. Press Continue
+</p>
+2. Fill in the info for your "System Setting" and "Admin User"
+</p>
+3. download and install <a href="https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe">HeidiSQL</a>
+</p>
+  - Open Heidi SQL
+  </p>
+  - Click "new" and put in the username and password from when you were setting up mySQL server and "open"
+  </p>
+  - Create a database called “osTicket” by Right Clicking "Unnamed"--> "create new"--> "database"
+  </p>
+4. Now you can Fill in the info for "Database setting" from the osTicket browser and click "Install Now"   
+<p>
+<img src="https://cdn2.iconfinder.com/data/icons/data-analytics-statistics/68/Data_Cleaning-512.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+</p>
+<h2>Step 8: clean up</h2>
+    </p>
+1. Delete the "setup" by clicking "This Pc" --> "Windows(c:)" --> "intetpub" --> "wwwroot"--> "osTicket"--> "setup"
+</p>
+2. Set Permissions to “Read” only: "This Pc" --> "Windows(c:)" --> "intetpub" --> "wwwroot"--> "osTicket"--> "include"--> "ost-config.php"
+</p>
+   - Properties--> "Security"
+   </p>
+   - Click "Advance"--> "Edit" then go to Basic permissions and uncheck everything but "Read & execute" and "Read" then press ok and apply
+
+ </p>
+</p>
+<br />
  </p>
 </p>
 <br />
@@ -176,7 +214,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<h2>Step 3: Download osTicket</h2>
+<h2>Step 8: gfdsgdfsgfdsgf</h2>
     </p>
 1. Visit the [osTicket website](https://osticket.com/) and download the latest stable version of osTicket.
  </p>
